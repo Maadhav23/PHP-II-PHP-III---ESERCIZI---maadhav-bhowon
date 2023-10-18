@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Es2.2</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form action="esph_2-2.php" method="post">
+        
+    <label for="flocalità"><b>Località:</b></label><br>
+    <input type="text" id="flocalità" name="flocalità" required><br><br>
+    <label for="fumidità"><b>Temperatura:</b></label><br>
+    <input type="number" id="ftemperatura" name="ftemperatura" required><br><br>
+
+    <label for="fumidità"><b>Umidità:</b></label>
+      <select name="fumidità" id="fumidità">
+        <option value="assoluta">Asssoluta</option>
+        <option value="relativa">Relativa</option>
+      </select>
+    <br><br>
+
+    <label for="fclima"><b>Clima:</b></label>
+    <select name="fclima" id="fclima">
+      <option value="pioggia">Pioggia</option>
+      <option value="sereno">Sereno</option>
+      <option value="ventoso">Ventoso</option>
+      <option value="umido">Umido</option>
+      <option value="foschia">foschia</option>
+    </select>
+  <br><br>
+
+    <input type="submit" name="submit">
+    
+    
+    
+    </form>
+</body>
+</html>
